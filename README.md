@@ -8,5 +8,4 @@ obtained with the help of English sentiment dictionary WordNet. These embeddings
 sentiments.
 
 For our experiments, we use [Sentiment140 dataset]([url](https://www.kaggle.com/kazanova/sentiment140)) with 1.6 million tweets. After training the two models, we save their weights and perform tests on the testing dataset. This
-test dataset is a set of sentences the model has never seen before. We evaluate the Precision, Recall and F1-score for both model on positve Sentiment data, negative sentiment data and the entire
-dataset. We use Tkinter (a Python library) to create the GUI for the sentiment detection in a sentence.
+test dataset is a set of sentences the model has never seen before. We evaluate the Precision, Recall and F1-score for both models on positive Sentiment data, negative sentiment data and the entire dataset. We use Tkinter (a Python library) to create the GUI for the sentiment detection in a sentence.
